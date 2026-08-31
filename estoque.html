@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estoque — Giro Certo Veículos</title>
+<meta name="description" content="Veja todos os carros disponíveis no lote da Giro Certo Veículos, com preço fixo e km real.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="index.html" class="wordmark">Giro <em>Certo</em></a>
+    <input type="checkbox" id="nav-toggle-input" class="nav-toggle-input">
+    <label for="nav-toggle-input" class="nav-toggle" aria-label="Abrir menu">☰</label>
+    <ul class="main-nav">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="estoque.html" aria-current="page">Estoque</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="container">
+    <h1>Todo o estoque, sem letra miúda</h1>
+    <p>15 carros no pátio agora. Preço já é o preço final — o que está na etiqueta é o que vai pro contrato.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <input type="radio" name="filtro" id="filtro-todos" class="filter-radio" checked>
+      <label for="filtro-todos" class="filter-btn">Todos</label>
+
+      <input type="radio" name="filtro" id="filtro-hatch" class="filter-radio">
+      <label for="filtro-hatch" class="filter-btn">Hatch</label>
+
+      <input type="radio" name="filtro" id="filtro-sedan" class="filter-radio">
+      <label for="filtro-sedan" class="filter-btn">Sedã</label>
+
+      <input type="radio" name="filtro" id="filtro-suv" class="filter-radio">
+      <label for="filtro-suv" class="filter-btn">SUV</label>
+
+      <input type="radio" name="filtro" id="filtro-picape" class="filter-radio">
+      <label for="filtro-picape" class="filter-btn">Picape</label>
+    </div>
+
+    <div class="lot-list">
+
+      <div class="lot-row" data-cat="hatch">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="42" width="80" height="24" rx="6" fill="#2B5D3F"/><path d="M20 42 L30 24 H70 L80 42 Z" fill="#2B5D3F"/><circle cx="28" cy="68" r="9" fill="#1F2A24"/><circle cx="72" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Chevrolet Onix 1.0 LT</h3>
+          <p class="specs">2020 · 41 mil km · completo · único dono · flex</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 54.500</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="hatch">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="42" width="80" height="24" rx="6" fill="#E8A33D"/><path d="M20 42 L30 24 H70 L80 42 Z" fill="#E8A33D"/><circle cx="28" cy="68" r="9" fill="#1F2A24"/><circle cx="72" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Volkswagen Gol 1.6 G6</h3>
+          <p class="specs">2017 · 79 mil km · direção hidráulica · ar-condicionado</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 38.900</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="hatch">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="42" width="80" height="24" rx="6" fill="#C1443B"/><path d="M20 42 L30 24 H70 L80 42 Z" fill="#C1443B"/><circle cx="28" cy="68" r="9" fill="#1F2A24"/><circle cx="72" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Fiat Argo 1.0 Drive</h3>
+          <p class="specs">2021 · 28 mil km · multimídia · sensor de ré</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 61.200</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="hatch">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="42" width="80" height="24" rx="6" fill="#2B5D3F"/><path d="M20 42 L30 24 H70 L80 42 Z" fill="#2B5D3F"/><circle cx="28" cy="68" r="9" fill="#1F2A24"/><circle cx="72" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Hyundai HB20 1.0</h3>
+          <p class="specs">2019 · 58 mil km · vidro elétrico · trava elétrica</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 42.900</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="sedan">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="44" width="88" height="22" rx="5" fill="#2B5D3F"/><path d="M16 44 L24 26 H50 L58 34 H76 L84 44 Z" fill="#2B5D3F"/><circle cx="26" cy="68" r="9" fill="#1F2A24"/><circle cx="74" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Chevrolet Cobalt LTZ</h3>
+          <p class="specs">2018 · 66 mil km · automático · bancos em couro</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 49.700</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="sedan">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="44" width="88" height="22" rx="5" fill="#E8A33D"/><path d="M16 44 L24 26 H50 L58 34 H76 L84 44 Z" fill="#E8A33D"/><circle cx="26" cy="68" r="9" fill="#1F2A24"/><circle cx="74" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Toyota Corolla GLi</h3>
+          <p class="specs">2016 · 92 mil km · revisões na concessionária · IPVA pago</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 68.400</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="sedan">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="44" width="88" height="22" rx="5" fill="#C1443B"/><path d="M16 44 L24 26 H50 L58 34 H76 L84 44 Z" fill="#C1443B"/><circle cx="26" cy="68" r="9" fill="#1F2A24"/><circle cx="74" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Volkswagen Voyage 1.6</h3>
+          <p class="specs">2019 · 51 mil km · completo · placa final par</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 52.900</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="suv">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="36" width="84" height="30" rx="6" fill="#2B5D3F"/><path d="M18 36 L26 20 H74 L82 36 Z" fill="#2B5D3F"/><circle cx="27" cy="70" r="10" fill="#1F2A24"/><circle cx="73" cy="70" r="10" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Jeep Renegade Sport</h3>
+          <p class="specs">2020 · 47 mil km · câmbio automático · central multimídia</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 84.900</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="suv">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="36" width="84" height="30" rx="6" fill="#E8A33D"/><path d="M18 36 L26 20 H74 L82 36 Z" fill="#E8A33D"/><circle cx="27" cy="70" r="10" fill="#1F2A24"/><circle cx="73" cy="70" r="10" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Chevrolet Tracker LT</h3>
+          <p class="specs">2022 · 19 mil km · garantia de fábrica restante</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 98.500</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="suv">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="36" width="84" height="30" rx="6" fill="#C1443B"/><path d="M18 36 L26 20 H74 L82 36 Z" fill="#C1443B"/><circle cx="27" cy="70" r="10" fill="#1F2A24"/><circle cx="73" cy="70" r="10" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Ford EcoSport Freestyle</h3>
+          <p class="specs">2017 · 73 mil km · rodas de liga leve</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 55.300</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="picape">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="40" width="84" height="26" rx="6" fill="#C1443B"/><path d="M18 40 L26 22 H74 L86 40 Z" fill="#C1443B"/><circle cx="27" cy="68" r="9" fill="#1F2A24"/><circle cx="73" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Fiat Strada Freedom CD</h3>
+          <p class="specs">2021 · 32 mil km · cabine dupla · revisões na concessionária</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 72.300</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="picape">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="40" width="84" height="26" rx="6" fill="#2B5D3F"/><path d="M18 40 L26 22 H74 L86 40 Z" fill="#2B5D3F"/><circle cx="27" cy="68" r="9" fill="#1F2A24"/><circle cx="73" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Chevrolet Montana LS</h3>
+          <p class="specs">2018 · 61 mil km · direção hidráulica · caçamba com forração</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 58.700</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="picape">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="40" width="84" height="26" rx="6" fill="#E8A33D"/><path d="M18 40 L26 22 H74 L86 40 Z" fill="#E8A33D"/><circle cx="27" cy="68" r="9" fill="#1F2A24"/><circle cx="73" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Volkswagen Saveiro Trendline</h3>
+          <p class="specs">2019 · 54 mil km · ar-condicionado · pneus novos</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 63.100</span></div>
+      </div>
+
+      <div class="lot-row" data-cat="hatch">
+        <svg class="icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="42" width="80" height="24" rx="6" fill="#E8A33D"/><path d="M20 42 L30 24 H70 L80 42 Z" fill="#E8A33D"/><circle cx="28" cy="68" r="9" fill="#1F2A24"/><circle cx="72" cy="68" r="9" fill="#1F2A24"/></svg>
+        <div>
+          <h3>Renault Kwid Zen</h3>
+          <p class="specs">2022 · 15 mil km · baixo consumo · ideal primeiro carro</p>
+        </div>
+        <div class="price"><span class="label">à vista</span><span class="value">R$ 46.800</span></div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Não achou o que procurava no lote?</h2>
+    <p>A gente localiza o carro certo pra você em até 5 dias úteis, com o mesmo padrão de revisão.</p>
+    <div class="cta-row">
+      <a href="contato.html" class="btn btn-primary" style="background: var(--accent); color: var(--ink);">Pedir busca de carro</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container inner">
+    <a href="index.html" class="wordmark" style="font-size: 1.1rem;">Giro <em>Certo</em></a>
+    <ul class="foot-nav">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="estoque.html">Estoque</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <p class="fine" style="margin-top: 20px;">Giro Certo Veículos é uma concessionária fictícia, criada apenas como exemplo de site.</p>
+  </div>
+</footer>
+
+</body>
+</html>

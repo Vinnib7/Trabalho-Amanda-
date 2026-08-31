@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato — Giro Certo Veículos</title>
+<meta name="description" content="Fale com a Giro Certo Veículos: endereço, horários e formulário de contato.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="index.html" class="wordmark">Giro <em>Certo</em></a>
+    <input type="checkbox" id="nav-toggle-input" class="nav-toggle-input">
+    <label for="nav-toggle-input" class="nav-toggle" aria-label="Abrir menu">☰</label>
+    <ul class="main-nav">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="estoque.html">Estoque</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="contato.html" aria-current="page">Contato</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="container">
+    <h1>Fale com a gente</h1>
+    <p>Dúvidas sobre algum carro, financiamento ou marcar um test-drive — escolha o que for melhor pra você.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container contact-grid">
+
+    <div>
+      <div class="info-block">
+        <h3>Endereço</h3>
+        <p>Av. far far away, 41 — Bairro Centro<br>Aberto de segunda a sábado</p>
+      </div>
+      <div class="info-block">
+        <h3>Horário de atendimento</h3>
+        <p>Segunda a sexta, 8h às 18h<br>Sábado, 8h às 13h</p>
+      </div>
+      <div class="info-block">
+        <h3>Telefone e WhatsApp</h3>
+        <p>(42) 99941-7008</p>
+      </div>
+      <div class="info-block">
+        <h3>E-mail</h3>
+        <p>contato@girocertoexemplo.com</p>
+      </div>
+
+      <div class="map-block">
+        <p style="color: var(--ink-soft); font-size: 0.92rem;">Mapa ilustrativo — pátio de frente ao posto de gasolina, próximo ao terminal rodoviário.</p>
+      </div>
+    </div>
+
+    <div>
+      <form class="contact-form">
+        <div class="field">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="field">
+          <label for="telefone">Telefone ou WhatsApp</label>
+          <input type="tel" id="telefone" name="telefone" required>
+        </div>
+        <div class="field">
+          <label for="interesse">O que você procura</label>
+          <select id="interesse" name="interesse">
+            <option>Um carro específico no estoque</option>
+            <option>Ajuda pra encontrar um carro</option>
+            <option>Simulação de financiamento</option>
+            <option>Avaliar meu carro na troca</option>
+            <option>Outro assunto</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Conta pra gente o que você procura..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+        <p class="form-note show">Formulário demonstrativo — este site não envia mensagens reais.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container inner">
+    <a href="index.html" class="wordmark" style="font-size: 1.1rem;">Giro <em>Certo</em></a>
+    <ul class="foot-nav">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="estoque.html">Estoque</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <p class="fine" style="margin-top: 20px;">Giro Certo Veículos é uma concessionária fictícia, criada apenas como exemplo de site.</p>
+  </div>
+</footer>
+
+</body>
+</html>
